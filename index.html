@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<body lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>统一建模语言理论测试</title>
+    <style type = "test/css">
+        .in {
+            margin-left: 40px;
+        }
+        .pin {
+            margin-left: 20px;
+        }
+    </style>
+    <script src = "./main/main.js"></script>
+</head>
+<h1 style="text-align:center">统一建模语言理论测试</h1>
+<div id = "testInfo">
+    <form>
+        <table>
+            <tr>
+                <td>考试科目：统一建模语言</td>
+                <td>时间： 100分钟</td>
+                <td>得分：100</td>
+            </tr>
+            <tr>
+                <td>班级：<input type="text" name="class" value=""></td>
+                <td>学号：<input type="text" name="studentid" value=""></td>
+                <td>姓名：<input type="text" name="xing" id ="name" value=""></td>
+            </tr>
+        </table>
+    </form>
+</div>
+<div id = "question1">
+    <h2>一、填空题（每空5分，共20分)</h2>
+    <p class = "pin">1.UML的中文全称是：
+        <input type="text" id="que1" value="">
+    </p>
+    <p class = "pin">2.对象最突出的特征是：
+        <input type="text" id="que2" value="">
+        <input type="text" id="que3" value="">
+        <input type="text" id="que4" value="">
+    </p>
+</div>
+<div id = "question2">
+    <h2>二、选择题（每题10分，共20分）</h2>
+    <p class = "pin">1.UML与软件工程的关系是：
+    <form class = "in">
+        <input type="radio" name="name1" value="(A) UML就是软件工程">(A) UML就是软件工程
+        <br>
+        <input type="radio" name="name1" value="(B) UML参与到软件工程中软件开发过程的几个阶段">(B) UML参与到软件工程中软件开发过程的几个阶段
+        <br>
+        <input type="radio" name="name1" value="(C) UML与软件工程无关">(C) UML与软件工程无关
+        <br>
+        <input type="radio" name="name1" value="(D) UML是软件工程的一部分">(D) UML是软件工程的一部分
+        <br>
+    </form>
+    </p>
+    <p class = "pin">2.Java语言支持：
+    <form class = "in">
+        <input type="radio" name="name2" value="(A) 单继承">(A) 单继承
+        <br>
+        <input type="radio" name="name2" value="(B) 多继承">(B) 多继承
+        <br>
+        <input type="radio" name="name2" value="(C) 单继承和多继承都支持">(C) 单继承和多继承都支持
+        <br>
+        <input type="radio" name="name2" value="(D) 单继承和多继承都不支持">(D) 单继承和多继承都不支持
+        <br>
+    </form>
+    </p>
+</div>
+<div id = "question3">
+    <h2>三、多择题（每题10分，共20分）</h2>
+    <p class = "pin">1.用例的粒度分为以下哪三种：
+    <form class = "in">
+        <input type="checkbox" name="name3" value="(A) 概述级">(A) 概述级
+        <br>
+        <input type="checkbox" name="name3" value="(B) 需求级">(B) 需求级
+        <br>
+        <input type="checkbox" name="name3" value="(C) 用户目标级">(C) 用户目标级
+        <br>
+        <input type="checkbox" name="name3" value="(D) 子功能级">(D) 子功能级
+        <br>
+    </form>
+    </p>
+    <p class = "pin">2.类图由以下哪三部分组成：
+    <form class = "in">
+        <input type="checkbox" name="name4" value="(A) 名称(Name)">(A) 名称(Name)
+        <br>
+        <input type="checkbox" name="name4" value="(B) 属性(Attribute)">(B) 属性(Attribute)
+        <br>
+        <input type="checkbox" name="name4" value="(C) 操作(Operation)">(C) 操作(Operation)
+        <br>
+        <input type="checkbox" name="name4" value="(D) 方法(Function)">(D) 方法(Function)
+        <br>
+    </form>
+    </p>
+</div>
+<div id = "question4">
+    <h2>四、判断题（每题10分，共20分）</h2>
+    <p class = "pin">
+    <form class = "in">1.用例图只是用于和客户交流和沟通的,用于确定需求。
+        <input type="radio" name="name5" value="√">√
+        <input type="radio" name="name5" value="×">×
+    </form>
+    </p>
+    <p class = "pin">
+    <form class = "in">2.在状态图中,终止状态在一个状态图中允许有任意多个。
+        <input type="radio" name="name6" value="√">√
+        <input type="radio" name="name6" value="×">×
+    </form>
+    </p>
+</div>
+<div id = "question5">
+    <h2>五、简答题（每题20分，共20分）</h2>
+    <p>1. 简述什么是模型以及模型的表现形式？</p>
+    <textarea rows="10" cols="80" id="textans" value="模型是对现实世界的简化和抽象，模型是对所研究的系统、过程、事物或概念的一种表达形式。可以是物理实体；可以是某种图形；或者是一种数学表达式。"></textarea><br><br>
+    <button id = "myBtn">计算分数</button>
+
+</div>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
